@@ -12,7 +12,7 @@ def provide_content() -> list:
     line_number = 1
     while True:
         content = input("Enter content line: ")
-        if content.lower == "stop":
+        if content.lower() == "stop":
             break
         lines_content.append(f"{line_number} {content}")
         line_number += 1
